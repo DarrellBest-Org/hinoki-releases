@@ -1,24 +1,21 @@
 name: Feature request
-description: Suggest something Hinoki should do.
-title: "[Feature]: "
+description: Something you'd like Hinoki to do.
 labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for the idea. Requests here are public. In Hinoki, Help > Request a Feature fills this in for you.
+        Thanks for the idea. Hinoki's **Help > Request a Feature…** fills in this form for you.
   - type: textarea
-    id: problem
+    id: description
     attributes:
-      label: What problem would this solve?
-      description: What you are trying to do and what gets in the way.
+      label: Describe it
+      description: What it is for, and how you would use it.
     validations:
       required: true
   - type: textarea
-    id: solution
+    id: diagnostics
     attributes:
-      label: What would you like Hinoki to do?
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Anything you have tried instead?
+      label: Version and system
+      description: Optional. Hinoki version, operating system and architecture.
+      render: text
