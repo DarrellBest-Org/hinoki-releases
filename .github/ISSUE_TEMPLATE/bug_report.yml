@@ -10,7 +10,7 @@ body:
     id: description
     attributes:
       label: What happened
-      description: What you did, what you expected, and what happened instead.
+      description: What you did and what happened, with any error message.
     validations:
       required: true
   - type: textarea
@@ -21,6 +21,10 @@ body:
       placeholder: |
         1. Open …
         2. Click …
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
   - type: textarea
     id: diagnostics
     attributes:

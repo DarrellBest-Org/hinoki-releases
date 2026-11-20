@@ -14,6 +14,11 @@ body:
     validations:
       required: true
   - type: textarea
+    id: solution
+    attributes:
+      label: How it could work
+      description: Optional. What you would see or do in Hinoki.
+  - type: textarea
     id: diagnostics
     attributes:
       label: Version and system
