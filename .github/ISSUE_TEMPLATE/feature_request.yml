@@ -1,0 +1,21 @@
+name: Feature request
+description: Something you'd like Hinoki to do.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Hinoki's **Help > Request a Feature…** fills in this form for you.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe it
+      description: What it is for, and how you would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Version and system
+      description: Optional. Hinoki version, operating system and architecture.
+      render: text

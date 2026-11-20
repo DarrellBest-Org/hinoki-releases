@@ -1,0 +1,29 @@
+name: Bug report
+description: Something in Hinoki doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Hinoki's **Help > Report a Bug…** fills in this form for you, version included.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If you can make it happen again, how.
+      placeholder: |
+        1. Open …
+        2. Click …
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Version and system
+      description: Hinoki version, operating system and architecture (Help > About shows the version).
+      render: text
