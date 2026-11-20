@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.11 (2026-11-19)
+
+- **Fits a laptop screen:** Models & Servers, Passwords, Setup, New Project and their forms fit a 1120×700 window.
+  Field and button rows wrap instead of overflowing, a new server's form scrolls into view when it opens, and only
+  the form scrolls in New Project.
+- **Hover to see the full name:** rows in Passwords, the KannaCode models list, Models & Servers hosts and the
+  benchmark leaderboard show their full name and details when a name is cut off.
+- **Checks before running:** New Project on an SSH host, the container engine setting, Run benchmark, Setup's
+  KannaCode alias and model port, server ports (1 to 65535) and Clone Repository's URL are checked as you enter
+  them, with a message that says what to fix, instead of failing later.
+- **Smaller fixes:** the Passwords Create buttons go straight to the master password. Code Map's PDF export opens
+  the save dialog in the project folder. Name, path, URL and search fields no longer spell-check.
+
 ## 0.1.10
 
 - **Project Map, a machine's Test** now lists its toolchains and their versions (and the ones the project asks
