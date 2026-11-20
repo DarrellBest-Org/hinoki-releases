@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in Hinoki doesn't work as it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Reports here are public: leave out passwords, API keys, tokens and private file contents.
+        In Hinoki, Help > Report a Bug fills most of this in for you.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you saw, and any error message.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Click...
+        3. See...
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Hinoki version and OS (Help > About shows the version).
+      placeholder: |
+        - Hinoki: 0.1.11
+        - OS: macOS 15.1 (arm64)
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Drag files in. Check logs for anything private first.
