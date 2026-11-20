@@ -13,7 +13,7 @@
 - **Smaller fixes:** the Passwords Create buttons go straight to the master password. Code Map's PDF export opens
   the save dialog in the project folder. Name, path, URL and search fields no longer spell-check.
 
-## 0.1.10 (2026-11-18)
+## 0.1.10
 
 - **Project Map, a machine's Test** now lists its toolchains and their versions (and the ones the project asks
   for), its health, and the project's git status there. It proposes the project's builds for that machine's
@@ -53,7 +53,7 @@
 - **KannaCode 1.18.2** with Hinoki's tool-approval and MCP tool-budget updates, and models kept with their keys in a
   workspace opened at the home folder.
 
-## 0.1.9 (2026-11-03)
+## 0.1.9
 
 - **Code Map, big files:** opening a big module (hundreds of functions) shows its classes and its first functions,
   then a "+K more" box; click it for the next ones. Searching or going to a function shows that one beside them,
@@ -66,7 +66,7 @@
 - **KannaCode 1.18.2.** Switching models in the middle of a session no longer breaks the following turns on Bedrock,
   and the GovCloud Bedrock models are back in the built-in list.
 
-## 0.1.8 (2026-10-30)
+## 0.1.8
 
 - **Code Map:** a new icon in the left bar opens a live map of the project's code: its systems, folders, files,
   classes and functions, and how they connect (imports, calls, inheritance). Zoom from the big picture down to one
@@ -87,7 +87,7 @@
   the Code Map and the rest), over the same SSH connection, with a token that lasts only as long as the session.
 - **KannaCode 1.18.1.** Its usage totals no longer show old numbers after a usage file is replaced.
 
-## 0.1.7 (2026-10-29)
+## 0.1.7
 
 - **Project Map:** every project opens on a board of where its parts run, and the Project Map has its own icon in the
   left bar. Put machines on it (this computer, SSH hosts, cloud model APIs) and give each one jobs: KannaCode, the
@@ -179,21 +179,21 @@
   list doesn't keep a name that answers nothing.
 - **An answered approval in the chat shows just your answer** (✓ Allow or ✓ Deny) instead of buttons that look
   like they still need clicking.
-  - Hinoki's terminals identify themselves as VS Code's do (`TERM_PROGRAM=vscode`), so a server whose shell startup
-    attaches a tmux or zellij session no longer drops you into your running session.
-  - A project Hinoki creates (from New Project or by KannaCode) opens without the "trust the authors" prompt.
+- **Hinoki's terminals identify themselves as VS Code's do** (`TERM_PROGRAM=vscode`), so a server whose shell
+  startup attaches a tmux or zellij session no longer drops you into your running session.
+- **A project Hinoki creates** (from New Project or by KannaCode) opens without the "trust the authors" prompt.
 - **The window can no longer end up scrolled** (the top cut off and a black bar at the bottom).
 - **The chat says why KannaCode could not start** (for example an unknown flag in `hinoki.kannacode.extraArgs`);
   before, the message just got no answer.
 - **Setup:**
   - Reusing an existing model server applies the recipe's context when the server's is larger, which could overflow
     the GPU.
-  - The model setup makes the default is now the one the chat and status bar use, even if you picked another one
-    earlier with Select Model.
+  - The model that setup makes the default is now the one the chat and status bar use, even if you picked another
+    one earlier with Select Model.
 - **Windows:** KannaCode prefers Git for Windows' bash over WSL's, so commands run with the right environment, and
   the installer carries the Windows builds of debugpy and ruff (it had the Linux ones, so ruff did not start).
 
-## 0.1.6 (2026-10-26)
+## 0.1.6
 
 - **What's New:** after an update, Hinoki shows what changed (this page).
 - **Fewer approval prompts:** Hinoki's read-only tools, like `hinoki_status`, `get_problems` and `list_servers`,
