@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.1.12
+
+- **Report a Bug and Request a Feature** in the Help menu open a prefilled form on GitHub, with steps, what you
+  expected, a proposed solution and, if you leave it ticked, your Hinoki and OS versions (the real Linux release).
+- **Windows: model servers keep running** after Hinoki exits, as they already did on Linux and macOS.
+- **Models & Servers:** the APIs tab lists your saved model APIs with Edit and Remove. A server whose software is
+  missing offers Install. Fit checks and recommended context use your NVIDIA GPU's memory when you have one.
+  Removing a model or server asks first, naming it.
+- **Project Map:** the machine list folds away on a narrow board, a jump host can log in with its own saved
+  password, and a window opened on a server starts with a board on that server.
+- **Projects:** New Project makes a first commit, picks templates from the keyboard and says why a name is
+  refused. Clone sets up the Project Map, offers Try Again after a failure and Open It when the folder exists.
+  KannaCode's `.kanna/` folder stays out of git.
+- **Chat:** chats are named from their first message, a stopped reply says "Stopped", the mode name stays visible
+  and a `#file` path attaches the right file.
+- **Smaller fixes:** File > Open Folder shows the right shortcut, row actions no longer push rows taller, side
+  panels open wide enough to read, the Code Map menu closes on Esc or a click outside, a master-password typo no
+  longer ends setup, Hinoki has its own Settings section, and the update offer waits until setup is closed.
+
 ## 0.1.11 (2026-11-19)
 
 - **Fits a laptop screen:** Models & Servers, Passwords, Setup, New Project and their forms fit a 1120×700 window.
