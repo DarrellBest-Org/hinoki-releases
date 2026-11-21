@@ -95,4 +95,7 @@ Uninstalling the app leaves these folders; delete them to remove everything.
 
 ## Reporting problems
 
-Open an issue in this repository. Include your Hinoki version (Help → About), your OS, and what you saw.
+In Hinoki, use **Help → Report a Bug…** or **Help → Request a Feature…**. It opens this repository's issue form in
+your browser with your report filled in; check it and submit it with your GitHub account. Reports are public, so leave
+out passwords, keys and private files. You can also [open an issue](https://github.com/DarrellBest-Org/hinoki-releases/issues/new/choose)
+here directly.
